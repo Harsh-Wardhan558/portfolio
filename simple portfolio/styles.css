@@ -1,0 +1,100 @@
+/* Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #1A1D23;
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(to bottom, #FF8C00, #FFC107);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #F7F7F7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    border-bottom: 3px solid #FFC107;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #FF8C00;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #FF8C00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #FFC107;
+    text-decoration: underline;
+  }
+  
+  .contact-info a {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2em;
+    }
+  
+    section {
+      margin: 10px;
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 1.5em;
+    }
+  
+    section {
+      padding: 10px;
+    }
+  
+    ul li {
+      font-size: 0.9em;
+    }
+  }
